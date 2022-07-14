@@ -228,7 +228,7 @@ void print_menu() {   // Функция вызова меню
 
 int main()
 { int m;
-	
+	setlocale(LC_CTYPE, "Russian_Russia.1251");
 for( ; ;){
 		print_menu(); // функция вывода меню
 		cin >> m;
